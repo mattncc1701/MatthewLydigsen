@@ -10,6 +10,6 @@ body {
 
 h1 {
     color: black;
-    font-style: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
