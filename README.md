@@ -1,1 +1,1 @@
-# MatthewLydigsen
+MatthewLydigsen.com is a site i designed to give a little bit about myself and share my knowledge of computer science with the world as time goes on I hope to expand the site to include as much information about computer science that i can.
