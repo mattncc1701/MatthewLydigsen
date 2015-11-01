@@ -20,9 +20,7 @@ div.logo{
 
 div.tabContent {
     display: block;
-    border: 1px solid #c9c3ba; 
     padding: 0.5em; 
-    background-color: #ffffff;
     float: right;
 }
 
