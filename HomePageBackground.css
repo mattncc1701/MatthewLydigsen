@@ -26,13 +26,14 @@ p.body{
 
 div.logo{
     float:left;
-    position: relative;
+    position: absolute;
     padding: 0.5em; 
+    margin-top: 0px;
 }
 
 div.tabContent {
     padding: 0.5em; 
-    position: relative;
+    position: absolute;
     float: right;       
 }
 
