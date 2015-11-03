@@ -15,7 +15,7 @@ ul#tabs li a.selected { color: #000; background-color: #f1f0ee; font-weight: bol
 
 div.header{
     display:block;  
-    background:black;
+    background-color: black;
 }
 
 div.logo{
