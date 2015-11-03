@@ -7,16 +7,18 @@
             <!--<img src="images/logo.jpg" alt="Logo" style="width:188px;height:188px; padding:1px">-->
         </div>  
         <div class = "tabContent">
-            <form action="Projects.html" id = "tabs">
-              <script>
+            <script>
               var isHovering = $("tabContent").is(":hovering");
                 if(isHovering){
-                    document.getElementById("tabs").innerHTML = "<input type="image" src="images/projectstablighted.jpg" style="width:135px; height:41px; padding-top: 0px; margin-left:15%; padding-left:8px;" alt="Submit">";
+                    document.getElementById("tab").innerHTML = "images/projectsTabNotLighted.jpg";
                 }
                 else{
-                    document.getElementById("tabs").innerHTML = "<input type="image" src="images/projectsTabNotLighted.jpg" style="width:135px; height:41px; padding-top: 0px; margin-left:15%; padding-left:8px;" alt="Submit">";
+                    document.getElementById("tab").innerHTML = "images/projectstablighted.jpg";
                 }
-              </script>
+            </script>
+            <form action="Projects.html" id = "tabs">
+                <input type="image" src=<var id = "tab"> style="width:135px; 
+                height:41px; padding-top: 0px; margin-left:15%; padding-left:8px;" alt="Submit">";
             </form>
         </div>
       </div>    
