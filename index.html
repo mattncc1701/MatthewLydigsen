@@ -9,7 +9,7 @@
         <div class = "tabContent">
             <form action="Projects.html" id = "tabs">
               <script>
-              var isHovering = $('#someDiv').is(":hovering");
+              var isHovering = $("tabContent").is(":hovering");
                 if(isHovering){
                     document.getElementById("tabs").innerHTML = "<input type="image" src="images/projectstablighted.jpg" style="width:135px; height:41px; padding-top: 0px; margin-left:15%; padding-left:8px;" alt="Submit">";
                 }
