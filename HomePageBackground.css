@@ -24,7 +24,7 @@ div.logo{
 }
 
 div.tabContent {
-    display: block;
+    display: inline;
     padding: 0.5em; 
 }
 
