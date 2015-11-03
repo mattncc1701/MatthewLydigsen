@@ -37,7 +37,10 @@ div.logo{
 div.tabContent {
     padding: 0.5em; 
     position: relative;
-    float: right;       
+    float: right;
+    background-color: black;
+    width:100%;
+    height:30px;
 }
 
 hr {
