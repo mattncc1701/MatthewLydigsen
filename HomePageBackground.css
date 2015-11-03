@@ -20,7 +20,8 @@ div.header{
 }
 
 div.logo{
-    display: block;
+    display: inline;
+    padding: 0.5em; 
 }
 
 div.tabContent {
