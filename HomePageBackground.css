@@ -13,11 +13,11 @@ ul#tabs li a.selected { color: #000; background-color: #f1f0ee; font-weight: bol
 
 div.body{
       position: absolute;
-      margin-top: 345px;
+      margin-top: 433px;
       margin-left: 25%;
       width:50%;
       background-color: white;
-      height: 65%;
+      height: 54%;
 }
 
 p.body{
