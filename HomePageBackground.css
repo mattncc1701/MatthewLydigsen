@@ -13,8 +13,8 @@ ul#tabs li a.selected { color: #000; background-color: #f1f0ee; font-weight: bol
 
 div.body{
       position: absolute;
-      margin-top: 260px;
-      margin-right: 25%;
+      margin-top: 365px;
+      margin-left: 25%;
       padding:left:25%;
       width:50%;
       background-color: white;
