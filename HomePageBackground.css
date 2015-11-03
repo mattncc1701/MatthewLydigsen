@@ -33,7 +33,7 @@ div.logo{
 
 div.tabContent {
     padding: 0.5em; 
-    position: absolute;
+    position: relative;
     float: right;       
 }
 
