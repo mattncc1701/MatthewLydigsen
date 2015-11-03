@@ -20,12 +20,12 @@ div.header{
 }
 
 div.logo{
-    display: inline;
+    float:left;
     padding: 0.5em; 
 }
 
 div.tabContent {
-    display: inline;
+    float:right;
     padding: 0.5em; 
 }
 
