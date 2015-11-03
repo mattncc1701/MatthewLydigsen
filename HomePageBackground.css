@@ -31,7 +31,7 @@ div.logo{
 }
 
 div.tabContent {
-    margin-right: -10px;      
+    padding: 0.5em;     
     float: right;       
 }
 
