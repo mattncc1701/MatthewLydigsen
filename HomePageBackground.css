@@ -27,11 +27,13 @@ div.header{
 
 div.logo{
     float:left;
+    position: relative;
     padding: 0.5em; 
 }
 
 div.tabContent {
-    padding: 0.5em;     
+    padding: 0.5em; 
+    position: relative;
     float: right;       
 }
 
