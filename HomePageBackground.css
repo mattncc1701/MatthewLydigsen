@@ -65,8 +65,9 @@ h1.sections {
 }
 
 h2.logo {
-    color: maroon;
-    font-family: Arial;
+    color: brown;
+    font-family: fantasy;
     text-align: center;
-    font-size: 35px;
+    font-size: 26px;
+    margin-top: 23px;
 }
