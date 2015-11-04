@@ -55,7 +55,7 @@ hr {
     background-color: maroon;
 }
 
-h1 {
+h1.sections {
     color: maroon;
     font-family: cursive;
     text-align: left;
