@@ -63,3 +63,10 @@ h1 {
     margin-left: 135px;
     margin-right: 135px;
 }
+
+h1.logo {
+    color: maroon;
+    font-family: Arial;
+    text-align: center;
+    font-size: 35px;
+}
