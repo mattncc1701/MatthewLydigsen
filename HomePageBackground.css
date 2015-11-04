@@ -28,7 +28,7 @@ p.body{
 }
 
 div.logo{
-    float:left;
+    float:right;
     position: absolute;
     padding: 0.5em; 
     margin-top: 0px;
