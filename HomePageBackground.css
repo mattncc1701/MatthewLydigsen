@@ -25,7 +25,6 @@ p.body{
       margin-left: 135px;
       margin-right: 148px;
       font-size: 19px;
-      background-color: maroon;
 }
 
 div.logo{
@@ -33,7 +32,8 @@ div.logo{
     position: absolute;
     padding: 0.5em; 
     margin-top: 0px;
-    margin-left: 85%;
+    margin-left: 87%;
+    background-color: maroon;
 }
 
 div.tabContent {
