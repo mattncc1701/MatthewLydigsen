@@ -1,0 +1,12 @@
+{
+  "name": "sessions",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./bin/www",
+  "scripts": {
+    "start": "./bin/www"
+  },
+  "dependencies": {
+
+  }
+}
