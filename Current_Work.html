@@ -13,12 +13,46 @@
           <script src="js/bootstrap.min.js"></script>
 
         </head>
+        
+        <style>
+            .jumbotron_background {
+                position: relative;
+                background:  url("images/background.jpg") center center;
+                background-repeat: repeat;
+            }
+            .navbar-custom {
+                font-size: 18px;
+                color: blue;
+                margin-bottom:0px; 
+                background-color:#000; 
+                border-style: none;
+            }
+        </style>
+        
+        <div class="jumbotron_background"> 
         <body>
             <div class="jumbotron" style="background-color:#99bbff;">
               <h1 style="padding-left:30px;">Current Work</h1>
             </div>  
-             <div class="container"> 
-               <div class="btn-group btn-group-lg btn-group-justified">
+             <div class="container">
+                 <nav class="navbar navbar-inverse navbar-custom">
+                   <div class="container-fluid">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                      <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="index.html">Home</a></li>
+                          <li><a href="Projects.html">Projects</a></li>
+                          <li><a href="Interests.html">Interests</a></li> 
+                          <li><a href="Current_Work.html">Current Work</a></li> 
+                        </ul>
+                      </div>    
+                   </div>
+                </nav>   
+               <!--<div class="btn-group btn-group-lg btn-group-justified">
                     <a href="index.html" class="btn btn-primary" role="button">Home</a>
                     <!--<div class="btn-group btn-group-lg">
                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
@@ -30,9 +64,9 @@
                         <li><a href="javascript.html">Javascript</a></li>
                       </ul>
                      </div>--> 
-                    <a href="Interests.html" class="btn btn-primary" role="button">Interests</a>
+                <!--    <a href="Interests.html" class="btn btn-primary" role="button">Interests</a>
                     <a href="Projects.html" class="btn btn-primary" role="button">Projects</a>
-                  </div>
+                  </div>-->
              </div>
           <div class="container">   
             <div class="well">
@@ -85,4 +119,5 @@
               </center>
           </div>
         </footer> 
+        </div>
 </html>
