@@ -13,23 +13,48 @@
           <script src="js/bootstrap.min.js"></script>
 
         </head>
+        
+        <style>
+            .jumbotron_background {
+                position: relative;
+                background:  url("images/background.jpg") center center;
+                background-repeat: repeat;
+            }
+            .navbar-custom {
+                font-size: 18px;
+                color: blue;
+                margin-bottom:0px; 
+                background-color:#000; 
+                border-style: none;
+            }
+        </style>
+        
+        <div class="jumbotron_background"> 
         <body>
             <div class="jumbotron" style="background-color:#99bbff; margin-bottom:0px;">
               <h1 style="padding-left:30px;">Projects</h1>
             </div>
                 
-                <nav class="navbar navbar-inverse">
-                  <div class="container-fluid">
-                    <ul class="nav navbar-nav">
-                      <li class="active"><a href="#">Home</a></li>
-                      <li><a href="#">Page 1</a></li>
-                      <li><a href="#">Page 2</a></li> 
-                      <li><a href="#">Page 3</a></li> 
-                    </ul>
-                  </div>
-                </nav>
         <div class="row">
          <div class="col-sm-6">   
+             <nav class="navbar navbar-inverse navbar-custom">
+                   <div class="container-fluid">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                      <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="index.html">Home</a></li>
+                          <li><a href="Projects.html">Projects</a></li>
+                          <li><a href="Interests.html">Interests</a></li> 
+                          <li><a href="Current_Work.html">Current Work</a></li> 
+                        </ul>
+                      </div>    
+                   </div>
+             </nav>
+            
              <!--<div class="container">--> 
                  <!--<div class="btn-group btn-group-lg btn-group-justified">
                     <a href="index.html" class="btn btn-primary" role="button">Home</a>
@@ -100,4 +125,5 @@
                       </center>
                   </div>
             </footer>  
+        </div>    
 </html>
