@@ -32,6 +32,20 @@
                 font-family: 'Fredericka the Great', fantasy;
                 color: #AA1218;
             }
+            #img_container {
+                position:relative;
+                display:inline-block;
+                text-align:center;
+                border:1px solid red;
+            }
+            
+            .button {
+                position:absolute;
+                bottom:10px;
+                right:10px;
+                width:100px;
+                height:30px;
+            }
         </style>
  
         <body  style="overflow-x:hidden;  background-color:  #800000;">
@@ -71,11 +85,15 @@
                 </div>
               </div>
             </nav>
-            <div style="position: relative; display:inline-block;">
-                <img src="images/amherst.jpg" width="100%"><!--class="img-responsive" width="100%"-->
-                <button style="position:absolute;"> click here </button>
+            <div style="position: relative;">
+                <div id="img_container">
+                    <img src="images/amherst.jpg"/ width="100%">
+                    <button class="button"> click here </button>
+                </div>
+                <!--<img src="images/amherst.jpg" width="100%"><!--class="img-responsive" width="100%"-->
+                <!--<button style="position:absolute;"> click here </button>
                 <button type="button" class="btn btn-lg btn-info" style="position:absolute; margin-left:100px;">Sell</button>
-                <button type="button" class="btn btn-lg btn-info" style="position:absolute;">Repair</button>
+                <button type="button" class="btn btn-lg btn-info" style="position:absolute;">Repair</button>-->
             </div>    
             </div>    
         </body>
